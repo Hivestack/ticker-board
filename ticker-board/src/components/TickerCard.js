@@ -1,7 +1,7 @@
 import { sliceBetween } from '../utils/string'
 
 const acceptableCodes = `ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789:,'-\xa0`
-const delayInMilliseconds = 25
+const delayInMilliseconds = 10
 
 class TickerCard {
   constructor(letter) {

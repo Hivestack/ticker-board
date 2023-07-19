@@ -17,7 +17,7 @@ class TickerBoard {
         delay,
       })
 
-      board.element.addEventListener('click', () => board.advance())
+      // board.element.addEventListener('click', () => board.advance())
 
       return board
     })
